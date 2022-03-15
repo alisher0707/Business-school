@@ -744,68 +744,66 @@
                         <h2>Онлайн заявка</h2>
 
                         <div class="container">
-                            <div class="moduleOnlineForm Application" id="moduleOnlineForm">
+                            <div class="applicationForm" id="onlineForm">
                                 <div class="container">
                                     <div class="wrap">
                                         <form name="myStepForm" id="myStepForm" method="POST" novalidate="novalidate">
-                                            <div class="moduleOnlineForms__wrap">
-                                                <div class="moduleOnlineForms--contents">
+                                            <div class="applicationForm__contents">
 
-
-                                                    <!-- ШАГ 1 -->
-                                                    <div class="moduleOnlineForms--content active" id="step1">
-                                                        <div class="moduleOnlineForms--content--item">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
-                                                                <label for="client_name" class="placeholder required">Имя</label>
-                                                                <input type="text" name="name" value="" placeholder="вввввв" class="pageRequired" id="name">
-                                                            </div>
-                                                        </div>
-                                                        <div class="moduleOnlineForms--content--item">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
-                                                                <label for="client_surname" class="placeholder required">Фамилия</label>
-                                                                <input type="text" name="surname" value="" placeholder="гггггг" class="pageRequired" id="surname">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="moduleOnlineForms--content--item">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
-                                                                <label for="phone" class="placeholder required">Мобильный телефон</label>
-                                                                <input type="tel" name="tel" value="" placeholder="+998 71 200-43-43" id="phone" class="pageRequired">
-                                                            </div>
-                                                        </div>
-
-
-                                                        <div class="moduleOnlineForms--content--item">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
-                                                                <label for="email" class="placeholder required">Электронная почта</label>
-                                                                <input type="email" name="email" value="" placeholder="dddddd@gmail.com" id="email" class="pageRequired">
-                                                            </div>
-                                                        </div>
-                                                        <div class="agreebox">
-                                                            <input id="checkbox1" type="checkbox" class="form-checkbox" name="agree">
-                                                            <label for="agree">Нажимая «Продолжить», я соглашаюсь с Договором оферты, даю согласие на хранение, обработку и использование персональных данных</label>
-                                                        </div>
-
-                                                        <div class="moduleOnlineForms--content--item btns">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
-                                                                <a href="javascript:void(0);" class="btn" id="myStepFormlink">Далее</a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="moduleOnlineForms--content--item btns" style="display:none;" id="autoUpdate">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
-                                                                <input type="hidden" name="site_lang" value="ru">
-                                                                <input type="hidden" name="sessid" id="sessid" value="38523f995754340741a828e41f99af4f">
-                                                                <button type="submit" class="colorBlue new-send-btn" id="">Продолжить</button>
-                                                            </div>
+                                                <!-- ШАГ 1 -->
+                                                <div class="applicationForm--content active" id="step1">
+                                                    <div class="applicationForm--content--item">
+                                                        <div class="applicationForm--content--item--wraps">
+                                                            <label for="client_name" class="placeholder required">Имя</label>
+                                                            <input type="text" name="name" value="" placeholder="Lola" class="pageRequired" id="name">
                                                         </div>
                                                     </div>
-                                                    <p><br></p>
+                                                    <div class="applicationForm--content--item">
+                                                        <div class="applicationForm--content--item--wraps">
+                                                            <label for="client_surname" class="placeholder required">Фамилия</label>
+                                                            <input type="text" name="surname" value="" placeholder="Azimova" class="pageRequired" id="surname">
+                                                        </div>
+                                                    </div>
 
+                                                    <div class="applicationForm--content--item">
+                                                        <div class="applicationForm--content--item--wraps">
+                                                            <label for="phone" class="placeholder required">Мобильный телефон</label>
+                                                            <input type="tel" name="tel" value="" placeholder="+998 71 200-43-43" class="pageRequired" id="phone">
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="applicationForm--content--item">
+                                                        <div class="applicationForm--content--item--wraps">
+                                                            <label for="email" class="placeholder required">Электронная почта</label>
+                                                            <input type="email" name="email" value="" placeholder="dddddd@gmail.com" class="pageRequired" id="email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="agreebox">
+                                                        <input id="checkbox1" type="checkbox" class="form-checkbox" name="agree">
+                                                        <label for="agree">Нажимая «Продолжить», я соглашаюсь с Договором оферты, даю согласие на хранение, обработку и использование персональных данных</label>
+                                                    </div>
+
+                                                    <div class="applicationForm--content--item btns">
+                                                        <div class="applicationForm--content--item--wraps">
+                                                            <a href="javascript:void(0);" class="btn" id="myStepFormlink">Далее</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="applicationForm--content--item btns" style="display:none;" id="autoUpdate">
+                                                        <div class="applicationForm--content--item--wraps">
+                                                            <input type="hidden" name="site_lang" value="ru">
+                                                            <input type="hidden" name="sessid" id="sessid" value="38523f995754340741a828e41f99af4f">
+                                                            <button type="submit" class="colorBlue new-send-btn" id="">Продолжить</button>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <!-- ШАГ 2 -->
-                                                <!-- <div class="moduleOnlineForms--content" id="step2">
-                                                    <div class="moduleOnlineForms--content--item w-100" id="locality-block">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                <p><br></p>
+
+                                            </div>
+                                            <!-- ШАГ 2 -->
+                                            <!-- <div class="applicationForm--content" id="step2">
+                                                    <div class="applicationForm--content--item w-100" id="locality-block">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <div class="radio-group_title">
                                                                 <p>Купить квартиру</p>
                                                             </div>
@@ -831,14 +829,14 @@
 
                                                     <div style="clear:both"></div>
 
-                                                    <div class="moduleOnlineForms--content--item w-50">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                    <div class="applicationForm--content--item w-50">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <label for="product_price" class="placeholder required">Стоимость квартиры</label>
                                                             <input type="text" name="product_price" placeholder="399 000 000" value="399000000" id="product_price" class="pageRequired">
                                                         </div>
                                                     </div>
-                                                    <div class="moduleOnlineForms--content--item w-50 credit-input-with-slider">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                    <div class="applicationForm--content--item w-50 credit-input-with-slider">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <label for="amount-of-credit" class="placeholder required">Сумма кредита</label>
                                                             <div class="calculatorCredit__list--item--wraps extra-controls">
                                                                 <input type="text" name="amount-of-credit" placeholder="20 000 000" id="amount-of-credit" class="integerInput">
@@ -846,8 +844,8 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="moduleOnlineForms--content--item w-100 credit-input-with-slider">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                    <div class="applicationForm--content--item w-100 credit-input-with-slider">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <label for="firstPaymentSlider" class="placeholder required">Первоначальный взнос</label>
                                                             <div class="calculatorCredit__list--item--wraps extra-controls">
                                                                 <input type="text" id="firstPaymentSlider" name="firstPaymentSlider" class="jsFirstPaymentInput integerInput" data-min="35000000" data-max="500000000" placeholder="20000000" required="">
@@ -857,8 +855,8 @@
                                                             <p>Минимальный взнос <i id="minPercentVal">15%</i> от стоимости квартиры</p>
                                                         </div>
                                                     </div>
-                                                    <div class="moduleOnlineForms--content--item w-100">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                    <div class="applicationForm--content--item w-100">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <label for="repayment-type" class="placeholder required">Тип погашения кредита</label>
                                                             <select class="pageRequired secondPageRequired" id="repayment-type" name="repayment-type">                                                
                                                     <option value="annuity">Аннуитет</option>
@@ -866,16 +864,16 @@
                                                 </select>
                                                         </div>
                                                     </div>
-                                                    <div class="moduleOnlineForms--content--item w-50">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                    <div class="applicationForm--content--item w-50">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <label for="credit-term" class="placeholder required">Срок кредита</label>
                                                             <select class="pageRequired secondPageRequired" id="credit-term" name="credit-term">
                                                     <option value="240">20 лет</option>                                                
                                                 </select>
                                                         </div>
                                                     </div>
-                                                    <div class="moduleOnlineForms--content--item w-50 hidden" id="grace-period-block">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                    <div class="applicationForm--content--item w-50 hidden" id="grace-period-block">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <label for="grace-period" class="placeholder required">Льготный приод</label>
                                                             <select class="pageRequired secondPageRequired" id="grace-period" name="grace-period">
                                                     <option value="0">нет</option>
@@ -884,17 +882,17 @@
                                                         </div>
                                                     </div>
                                                 </div> -->
-                                                <!-- ШАГ 3 -->
-                                                <!-- <div class="moduleOnlineForms--content" id="step3">
+                                            <!-- ШАГ 3 -->
+                                            <!-- <div class="applicationForm--content" id="step3">
                                                     <div class="doc-info">
-                                                        <div class="moduleOnlineForms--content--item w-33 max-width25">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
+                                                        <div class="applicationForm--content--item w-33 max-width25">
+                                                            <div class="applicationForm--content--item--wraps">
                                                                 <label for="docSeria" class="placeholder required">Серия</label>
                                                                 <input type="text" name="docSeria" value="" placeholder="AB" class="pageRequired hasvalue" id="docSeria">
                                                             </div>
                                                         </div>
-                                                        <div class="moduleOnlineForms--content--item w-33 maxWidth33">
-                                                            <div class="moduleOnlineForms--content--item--wraps">
+                                                        <div class="applicationForm--content--item w-33 maxWidth33">
+                                                            <div class="applicationForm--content--item--wraps">
                                                                 <label for="docNum" class="placeholder required">Номер</label>
                                                                 <input type="text" name="docNum" value="" placeholder="1234567" class="pageRequired" id="docNum">
                                                             </div>
@@ -902,12 +900,12 @@
 
                                                     </div>
                                                 </div> -->
-                                                <!-- <div class="modalThanks">
+                                            <!-- <div class="modalThanks">
                                                     <div class="modalThanks__wraps">
                                                         <a href="javascript:void(0);" class="closeBtn"><img src="/local/templates/sqb/images/closeBtn.png" alt=""></a>
                                                     </div>
-                                                    <div class="moduleOnlineForms--content--item w-50">
-                                                        <div class="moduleOnlineForms--content--item--wraps">
+                                                    <div class="applicationForm--content--item w-50">
+                                                        <div class="applicationForm--content--item--wraps">
                                                             <label for="date" class="placeholder required"> Дата рождения </label>
                                                             <input type="text" name="dateBirthDay" placeholder="10/06/1989" id="date" class="date-picker pageRequired" onfocusout="checkdate()">
                                                             <span class="icons pikerdata">
@@ -918,7 +916,7 @@
                                                 </div> -->
 
 
-                                            </div>
+
                                     </div>
                                     </form>
                                 </div>
