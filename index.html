@@ -758,137 +758,128 @@
                             <div class="applicationForm" id="onlineForm">
                                 <div class="wrap">
                                     <form name="myStepForm" id="myStepForm" method="POST" novalidate="novalidate">
-                                        <div class="applicationForm__contents">
-
-                                            <!-- ШАГ 1 -->
-                                            <div class="applicationForm--content active" id="step1">
-                                                <div class="applicationForm--content--item">
-                                                    <div class="applicationForm--content--item--wraps">
-                                                        <label for="name" class="placeholderRequired">Имя</label>
-                                                        <input type="text" name="name" value="" placeholder="Lola" class="pageRequired" id="name">
-                                                    </div>
-                                                </div>
-                                                <div class="applicationForm--content--item">
-                                                    <div class="applicationForm--content--item--wraps">
-                                                        <label for="surname" class="placeholderRequired">Фамилия</label>
-                                                        <input type="text" name="surname" value="" placeholder="Azimova" class="pageRequired" id="surname">
-                                                    </div>
-                                                </div>
-
-                                                <div class="applicationForm--content--item">
-                                                    <div class="applicationForm--content--item--wraps">
-                                                        <label for="tel" class="placeholderRequired">Мобильный телефон</label>
-                                                        <input type="tel" name="tel" value="" placeholder="+998 71 200-43-43" class="pageRequired" id="phone">
-                                                    </div>
-                                                </div>
 
 
-                                                <div class="applicationForm--content--item">
-                                                    <div class="applicationForm--content--item--wraps">
-                                                        <label for="email" class="placeholderRequired">Электронная почта</label>
-                                                        <input type="email" name="email" value="" placeholder="dddddd@gmail.com" class="pageRequired" id="email">
-                                                    </div>
+                                        <!-- ШАГ 1 -->
+                                        <div class="tab">
+                                            <div class="applicationForm--content--item">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <label for="name" class="placeholderRequired">Имя</label>
+                                                    <input type="text" name="name" value="" placeholder="Lola" class="pageRequired" id="name">
                                                 </div>
-                                                <div class="agreebox">
-                                                    <input id="checkbox1" type="checkbox" class="form-checkbox" name="agree">
-                                                    <span class="checkmark"></span>
-                                                    <label for="agree">Shaxsiy maʻlumotlardan foydalanish <a href=""> shartlarini </a> qabul qilaman.</label>
+                                            </div>
+                                            <div class="applicationForm--content--item">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <label for="surname" class="placeholderRequired">Фамилия</label>
+                                                    <input type="text" name="surname" value="" placeholder="Azimova" class="pageRequired" id="surname">
                                                 </div>
+                                            </div>
 
-                                                <div class="applicationForm--content--item btns">
-                                                    <div class="applicationForm--content--item--wraps">
-                                                        <a href="javascript:void(0);" class="btn" id="myStepFormlink">Далее</a>
-                                                    </div>
+                                            <div class="applicationForm--content--item">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <label for="tel" class="placeholderRequired">Мобильный телефон</label>
+                                                    <input type="tel" name="tel" value="" placeholder="+998 71 200-43-43" class="pageRequired" id="phone">
+                                                </div>
+                                            </div>
+
+
+                                            <div class="applicationForm--content--item">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <label for="email" class="placeholderRequired">Электронная почта</label>
+                                                    <input type="email" name="email" value="" placeholder="dddddd@gmail.com" class="pageRequired" id="email">
                                                 </div>
                                             </div>
                                         </div>
-                                        -------------
+
                                         <!-- ШАГ 2 -->
-                                        <div class="applicationForm--content--item">
-                                            <div class="applicationForm--content--item--wraps">
-                                                <label for="birthday" class="placeholderRequired">Birthday</label>
-                                                <input type="date" id="birthday" name="birthday">
-                                            </div>
-                                        </div>
-                                        <div class="doc-info">
+                                        <div class="tab">
                                             <div class="applicationForm--content--item">
                                                 <div class="applicationForm--content--item--wraps">
-                                                    <label for="docSeria" class="placeholderRequired">Серия</label>
-                                                    <input type="text" name="docSeria" value="" placeholder="AB" class="pageRequired hasvalue" id="docSeria">
+                                                    <label for="birthday" class="placeholderRequired">Birthday</label>
+                                                    <input type="date" id="birthday" name="birthday">
                                                 </div>
                                             </div>
-                                            <div class="applicationForm--content--item">
-                                                <div class="applicationForm--content--item--wraps">
-                                                    <label for="docNum" class="placeholderRequired">Номер</label>
-                                                    <input type="text" name="docNum" value="" placeholder="1234567" class="pageRequired" id="docNum">
+                                            <div class="doc-info">
+                                                <div class="applicationForm--content--item">
+                                                    <div class="applicationForm--content--item--wraps">
+                                                        <label for="docSeria" class="placeholderRequired">Серия</label>
+                                                        <input type="text" name="docSeria" value="" placeholder="AB" class="pageRequired hasvalue" id="docSeria">
+                                                    </div>
+                                                </div>
+                                                <div class="applicationForm--content--item">
+                                                    <div class="applicationForm--content--item--wraps">
+                                                        <label for="docNum" class="placeholderRequired">Номер</label>
+                                                        <input type="text" name="docNum" value="" placeholder="1234567" class="pageRequired" id="docNum">
+                                                    </div>
+                                                </div>
+                                                <div class="applicationForm--content--item">
+                                                    <div class="applicationForm--content--item--wraps">
+                                                        <label for="gender" class="placeholderRequired">пол</label>
+                                                        <select class="pageRequired secondPageRequired" id="genderChoice" name="gender">                                                
+                                                            <option value="">Мужской</option>
+                                                            <option value="">Женский</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <div class="doc-info">
+                                                <div class="applicationForm--content--item">
+                                                    <div class="applicationForm--content--item--wraps">
+                                                        <label for="region" class="placeholderRequired">Выберите область</label>
+                                                        <select class="pageRequired secondPageRequired" id="region" name="region">                                                
+                                                            <option value="">Андижанская</option>
+                                                            <option value="">Бухарская</option>
+                                                            <option value="">Андижанская</option>
+                                                            <option value="">Бухарская</option>
+                                                            <option value="">Андижанская</option>
+                                                            <option value="">Бухарская</option>
+                                                            <option value="">Андижанская</option>
+                                                            <option value="">Бухарская</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="applicationForm--content--item">
+                                                    <div class="applicationForm--content--item--wraps">
+                                                        <label for="address" class="placeholderRequired">Адрес</label>
+                                                        <input type="text" name="address" value="" placeholder="согласно прописке" class="pageRequired" id="address">
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class="applicationForm--content--item">
                                                 <div class="applicationForm--content--item--wraps">
-                                                    <label for="gender" class="placeholderRequired">пол</label>
-                                                    <select class="pageRequired secondPageRequired" id="genderChoice" name="gender">                                                
-                                                        <option value="">Мужской</option>
-                                                        <option value="">Женский</option>
+                                                    <label for="education" class="placeholderRequired">Образование</label>
+                                                    <select class="pageRequired secondPageRequired" id="education" name="education">                                                
+                                                        <option value="">Высшее</option>
+                                                        <option value="">Среднее</option>
                                                     </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="doc-info">
-                                            <div class="applicationForm--content--item">
-                                                <div class="applicationForm--content--item--wraps">
-                                                    <label for="region" class="placeholderRequired">Выберите область</label>
-                                                    <select class="pageRequired secondPageRequired" id="region" name="region">                                                
-                                                        <option value="">Андижанская</option>
-                                                        <option value="">Бухарская</option>
-                                                        <option value="">Андижанская</option>
-                                                        <option value="">Бухарская</option>
-                                                        <option value="">Андижанская</option>
-                                                        <option value="">Бухарская</option>
-                                                        <option value="">Андижанская</option>
-                                                        <option value="">Бухарская</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="applicationForm--content--item">
-                                                <div class="applicationForm--content--item--wraps">
-                                                    <label for="address" class="placeholderRequired">Адрес</label>
-                                                    <input type="text" name="address" value="" placeholder="согласно прописке" class="pageRequired" id="address">
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="applicationForm--content--item">
-                                            <div class="applicationForm--content--item--wraps">
-                                                <label for="education" class="placeholderRequired">Образование</label>
-                                                <select class="pageRequired secondPageRequired" id="education" name="education">                                                
-                                        <option value="">Высшее</option>
-                                        <option value="">Среднее</option>
-                                    </select>
-                                            </div>
-                                        </div>
-                                        ---------
                                         <!-- ШАГ 3 -->
-                                        <div class="applicationForm--content--item">
-                                            <div class="applicationForm--content--item--wraps">
-                                                <label for="edu" class="placeholderRequired">Diplom bo‘yicha mutaxassisligingiz: *</label>
-                                                <input type="text" name="edu" class="pageRequired" id="edu1">
+                                        <div class="tab">
+                                            <div class="applicationForm--content--item">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <label for="edu" class="placeholderRequired">Diplom bo‘yicha mutaxassisligingiz: *</label>
+                                                    <input type="text" name="edu" class="pageRequired" id="edu1">
+                                                </div>
+                                            </div>
+                                            <div class="applicationForm--content--item">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <label for="edu" class="placeholderRequired">Diplom bo‘yicha mutaxassisligingiz: *</label>
+                                                    <input type="text" name="edu" class="pageRequired" id="edu2">
+                                                </div>
+                                            </div>
+                                            <div class="applicationForm--content--item">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <label for="edu" class="placeholderRequired">Diplom bo‘yicha mutaxassisligingiz: *</label>
+                                                    <input type="text" name="edu" class="pageRequired" id="edu3">
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="applicationForm--content--item">
-                                            <div class="applicationForm--content--item--wraps">
-                                                <label for="edu" class="placeholderRequired">Diplom bo‘yicha mutaxassisligingiz: *</label>
-                                                <input type="text" name="edu" class="pageRequired" id="edu2">
-                                            </div>
-                                        </div>
-                                        <div class="applicationForm--content--item">
-                                            <div class="applicationForm--content--item--wraps">
-                                                <label for="edu" class="placeholderRequired">Diplom bo‘yicha mutaxassisligingiz: *</label>
-                                                <input type="text" name="edu" class="pageRequired" id="edu3">
-                                            </div>
-                                        </div>
-                                        -------------
                                         <!-- ШАГ 4 -->
-                                        <div class="applicationForm--content" id="step4">
+                                        <div class="tab">
                                             <div class="applicationForm--content--item" id="locality-block">
                                                 <div class="applicationForm--content--item--wraps">
                                                     <div class="checkbox-group_title">
@@ -896,21 +887,21 @@
                                                     </div>
                                                     <div class="checkbox-group">
                                                         <label class="mycheckbox">
-                                                            <input type="checkbox" value="qu1" name="question1" checked>
-                                                            <span class="questions">Devorbop qurilish materiallari ishlab chiqarish</span>
-                                                        </label>
+                                                                <input type="checkbox" value="qu1" name="question1" checked>
+                                                                <span class="questions">Devorbop qurilish materiallari ishlab chiqarish</span>
+                                                            </label>
                                                         <label class="mycheckbox">
-                                                            <input type="checkbox" value="qu2" name="question2">
-                                                            <span class="questions">Pardozbop qurilish materiallari ishlab chiqarish </span>
-                                                        </label>
+                                                                <input type="checkbox" value="qu2" name="question2">
+                                                                <span class="questions">Pardozbop qurilish materiallari ishlab chiqarish </span>
+                                                            </label>
                                                         <label class="mycheckbox">
-                                                            <input type="checkbox" value="qu3" name="question3">
-                                                            <span class="questions">Issiqlik saqlovchi materiallar ishlab chiqarish</span>
-                                                        </label>
+                                                                <input type="checkbox" value="qu3" name="question3">
+                                                                <span class="questions">Issiqlik saqlovchi materiallar ishlab chiqarish</span>
+                                                            </label>
                                                         <label class="mycheckbox">
-                                                            <input type="checkbox" value="qu4" name="question4">
-                                                            <span class="questions">Pol qoplamalari va to‘shamalar ishlab chiqarish</span>
-                                                        </label>
+                                                                <input type="checkbox" value="qu4" name="question4">
+                                                                <span class="questions">Pol qoplamalari va to‘shamalar ishlab chiqarish</span>
+                                                            </label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -920,17 +911,41 @@
                                                     <textarea placeholder="Fikrlaringizni bir necha so’zda aniq ravishda ifodalang" class="pageRequired" id="expectations"></textarea>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </form>
 
+                                        </div>
+
+
+                                        <div class="agreebox">
+                                            <input id="checkbox1" type="checkbox" class="form-checkbox" name="agree">
+                                            <span class="checkmark"></span>
+                                            <label for="agree">Shaxsiy maʻlumotlardan foydalanish <a href=""> shartlarini </a> qabul qilaman.</label>
+                                        </div>
+
+                                        <!-- <div class="applicationForm--content--item btns">
+                                                <div class="applicationForm--content--item--wraps">
+                                                    <a href="javascript:void(0);" class="btn" id="myStepFormlink">Далее</a>
+                                                </div>
+                                            </div> -->
+
+                                        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                                        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+
+
+                                        <div style="text-align:center;margin-top:40px;">
+                                            <span class="step"></span>
+                                            <span class="step"></span>
+                                            <span class="step"></span>
+                                            <span class="step"></span>
+                                        </div>
+
+                                    </form>
                                 </div>
                             </div>
                         </div>
 
 
 
-
-                        <div id="successfullWindow" class="inline-list--second__item--popup fade-enter-done hidden">
+                        <!-- <div id="successfullWindow" class="inline-list--second__item--popup fade-enter-done hidden">
                             <div class="inline-list--second__item--popup-wrap inline-list-second__new-item">
                                 <h4><i id="clientName"></i>, благодарим, что воспользовались нашим сервисом. Решение по заявке мы отправим на указанный номер.</h4>
                                 <div class="kod-podverjdeniya kod-podverjdeniya-uspeshno">
@@ -942,10 +957,10 @@
                                 </div>
                             </div>
                             <div class="inline-list--second__item--popup-overlay-fon"></div>
-                        </div>
+                        </div> -->
 
                         <!-- Modal for Error message -->
-                        <div class="modal fade" id="errorStatusWaitingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <!-- <div class="modal fade" id="errorStatusWaitingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -961,7 +976,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
 
 
@@ -980,23 +995,23 @@
 
                         <!-- Contact Form Validation Markup -->
                         <!-- Contact alert -->
-                        <div class="alert-wrapper" id="alert-success">
+                        <!-- <div class="alert-wrapper" id="alert-success">
                             <div id="success">
                                 <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
                                 <div class="wrapper">
                                     <p>Your message was sent successfully.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- End of .alert_wrapper -->
-                        <div class="alert-wrapper" id="alert-error">
+                        <!-- <div class="alert-wrapper" id="alert-error">
                             <div id="error">
                                 <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
                                 <div class="wrapper">
                                     <p>Sorry!Something Went Wrong.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- End of .alert_wrapper -->
                     </div>
                     <!-- /.send-message -->
