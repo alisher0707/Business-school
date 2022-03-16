@@ -1,31 +1,113 @@
-.Application {
+/* #project-section,
+#about-us,
+#contact-section,
+#message-send */
+
+body {
+    background-color: #F5F5F5;
+}
+
+.applicationForm {
     max-width: 900px;
-    background: linear-gradient(106.83deg, #FFFFFF 0%, #F5F5F5 100%);
-    box-shadow: 0px 32px 96px 80px rgb(0 0 0 / 3%);
+    background-color: #FFFF;
+    box-shadow: 0px 32px 96px 80px rgb(0 0 0 / 1%);
     border-radius: 20px;
     padding: 40px 100px;
     margin: 0 auto;
 }
 
-.moduleOnlineForms .container .wrap .moduleOnlineForms__wrap .moduleOnlineForms--contents .moduleOnlineForms--content .moduleOnlineForms--content--item .moduleOnlineForms--content--item--wraps .secondPageRequired {
+.applicationForm--content--item--wraps {
+    margin-bottom: 25px;
+}
+
+input.pageRequired,
+select.pageRequired.secondPageRequired {
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid #E3E3E3;
     box-sizing: border-box;
     border-radius: 4px;
+    font-family: Roboto;
+    padding: 10px;
+    padding-right: 30px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1D3448;
+    z-index: 2;
+    position: relative;
+}
+
+label.placeholderRequired {
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    height: 21px;
+}
+
+input.pageRequired {
+    display: flex;
+}
+
+input#address.pageRequired {
+    width: 500px;
+}
+
+.agreebox {
+    display: flex;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.agreebox label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    text-align: justify;
+    width: 97%;
+}
+
+.applicationForm--content--item.btns {
+    text-align: center;
+    margin-top: 70px;
+}
+
+a.btn {
+    background: #D52023;
+    border-radius: 4px;
+    border: 1px solid red;
+    padding: 11px 50px;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #383837;
-    -webkit-appearance: none;
-    background-image: url(../images/down.png) !important;
-    background-repeat: no-repeat;
-    background-position: right 3% center;
-    padding-right: 30px;
-    max-height: 50px;
-    padding: 14px 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.6s all;
 }
 
-.moduleOnlineForms .container .wrap .moduleOnlineForms__wrap .moduleOnlineForms--contents .moduleOnlineForms--content .moduleOnlineForms--content--item .moduleOnlineForms--content--item--wraps input {
+input.form-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background: #FFFFFF;
+    color: #666;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    cursor: pointer;
+    margin-right: 13px;
+    outline: none;
+    border: 1px solid #1D3448;
+    border-radius: 2px;
+    box-sizing: unset !important;
+}
+
+input#birthday {
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid #E3E3E3;
     box-sizing: border-box;
@@ -41,64 +123,48 @@
     position: relative;
 }
 
-.moduleOnlineForms .container .wrap .moduleOnlineForms__wrap .moduleOnlineForms--contents .moduleOnlineForms--content .moduleOnlineForms--content--item .moduleOnlineForms--content--item--wraps select {
-    border-right: transparent;
-    border-left: transparent;
-    border-top: transparent;
-    font-family: Open Sans;
-    border-radius: 0;
-    padding: 20px;
-    padding-right: 30px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    font-size: 20px;
-    line-height: 26px;
-    color: #b1b2b2;
-    font-weight: 300;
+.doc-info {
+    display: flex;
+    justify-content: space-between;
 }
 
-.moduleOnlineForms .container .wrap .moduleOnlineForms__wrap .moduleOnlineForms--contents .moduleOnlineForms--content .moduleOnlineForms--content--item .moduleOnlineForms--content--item--wraps select {
-    font: 600 14px/70px "Roboto", sans-serif;
-    color: #b1b2b2;
-    padding-left: 20px;
-    border-radius: 4px;
-    border: 2px solid #e6e7e8;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: transparent;
-    width: 100%;
-    height: 70px;
+.checkbox-group_title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 40px;
 }
 
-.moduleOnlineForms .container .wrap .moduleOnlineForms__wrap .moduleOnlineForms--contents .moduleOnlineForms--content .moduleOnlineForms--content--item.btns .moduleOnlineForms--content--item--wraps .new-send-btn {
-    background: #D52023;
-    border-radius: 4px;
-    border: 1px solid red;
-    padding: 15px 90px;
+label.mycheckbox {
+    display: flex;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
-    transition: 0.6s all;
+    color: #444444;
+    padding-left: 20px;
 }
 
-.moduleOnlineForms .container .wrap .moduleOnlineForms__wrap .moduleOnlineForms--contents .moduleOnlineForms--content .moduleOnlineForms--content--item.btns .moduleOnlineForms--content--item--wraps .btn {
-    display: inline-block;
-    padding: 20px 50px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    border: 2px solid #003E64;
-    font: 700 16px/16px "Roboto", sans-serif;
-    text-transform: uppercase;
-    color: #003E64;
-    text-decoration: none;
-    -webkit-transition: background-color 200ms ease 0s;
-    transition: background-color 200ms ease 0s;
+span.questions {
+    padding-left: 5px;
 }
 
-label.placeholder.required,
-input.page.required {
-    display: flex;
-    flex-direction: column;
+textarea#expectations.pageRequired {
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 100%;
+    height: 185px;
+    padding: 8px 18px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 18px;
+    resize: none;
+}
+
+#contact-section .send-message form textarea:focus {
+    border: 1px solid #E3E3E3;
+}
+
+textarea#expectations.pageRequired::placeholder {
+    color: #D5D5D5;
 }
