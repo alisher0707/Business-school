@@ -168,3 +168,7 @@ textarea#expectations.pageRequired {
 textarea#expectations.pageRequired::placeholder {
     color: #D5D5D5;
 }
+
+.tab {
+    display: none;
+}
