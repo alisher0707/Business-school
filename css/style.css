@@ -678,8 +678,7 @@ textarea {
 
 #about-us .single-about-content {
     text-align: center;
-    margin-top: 55px;
-    margin-bottom: 100px;
+    margin: 25px 0;
 }
 
 #about-us .icon {
