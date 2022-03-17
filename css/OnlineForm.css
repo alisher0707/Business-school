@@ -58,6 +58,7 @@ input#address.pageRequired {
     display: flex;
     padding: 0;
     margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .agreebox label {
@@ -174,7 +175,55 @@ textarea#expectations.pageRequired::placeholder {
     color: #D5D5D5;
 }
 
-
-/* .tab {
+.tab {
     display: none;
-} */
+}
+
+
+/* Make circles that indicate the steps of the form: */
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+
+/* Mark the active step: */
+
+.step.active {
+    background-color: #EF7F1A;
+    opacity: 1;
+}
+
+
+/* Mark the steps that are finished and valid: */
+
+.step.finish {
+    background-color: #EF7F1A;
+    opacity: 1;
+}
+
+.formBtns {
+    display: flex;
+    justify-content: space-between;
+}
+
+button#nextBtn,
+button#prevBtn {
+    background: #D52023;
+    border: 2px solid #d52023;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 150px;
+}
