@@ -179,6 +179,14 @@ textarea#expectations.pageRequired::placeholder {
     display: none;
 }
 
+input.invalid {
+    border-color: #D52023;
+}
+
+.form-checkbox.invalid {
+    color: red;
+}
+
 
 /* Make circles that indicate the steps of the form: */
 
@@ -216,8 +224,8 @@ textarea#expectations.pageRequired::placeholder {
 
 button#nextBtn,
 button#prevBtn {
-    background: #D52023;
-    border: 2px solid #d52023;
+    background: #EF7F1A;
+    border: 2px solid #EF7F1A;
     border-radius: 10px;
     padding: 10px 10px;
     font-weight: 400;
