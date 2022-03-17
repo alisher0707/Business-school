@@ -128,8 +128,8 @@
                         <li data-index="rs-20" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="video/drinkwinecover.jpg" data-rotate="0" data-saveperformance="off" data-title="Title Goes Here"
                             data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="images/home/slide-3.jpg" alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0"
-                                data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
+                            <img src="images/home/slide-3.jpg" alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0" data-rotateend="0"
+                                data-rotatestart="0" data-scaleend="100" data-scalestart="140">
                             <!-- LAYERS -->
 
                             <!-- BACKGROUND VIDEO LAYER -->
@@ -225,7 +225,7 @@
                                 <div class="single-text-item-title2">
                                     <h6>BIZ</h6>
                                 </div>
-                                <div class="single-text-item">
+                                <div class="single-text-item" style="border-left: 2px solid #E3E3E3; border-right: 2px solid #E3E3E3;">
                                     <p>Xozirda mamlakatimiz sanoat salohiyatini mustahkamlash shahar va viloyatlarda yangi ishlab chiqarishlarni tashkil etish hisobiga aholini ish bilan band qilishni kengaytirish, yangi ish o‘rinlarini yaratishga qaratilgan
                                         kompleks chora-tadbirlar qabul qilindi va amalga oshirilmoqda.</p>
                                     <p>Xususan, O‘zbekiston Respublikasi Prezidentining 2021 yil 9 iyundagi “Hududlarning sanoat salohiyatini oshirishga doir qo‘shimcha chora-tadbirlar to‘g‘risida”gi PF-6244-sonli farmonida belgilangan vazifalar ijrosini
@@ -689,8 +689,13 @@
                             <div class="applicationForm" id="onlineForm">
                                 <div class="wrap">
                                     <form name="myStepForm" id="myStepForm" method="POST" novalidate="novalidate">
-
-
+                                        <!-- Circles which indicates the steps of the form: -->
+                                        <div style="text-align:center;margin-top:40px;">
+                                            <span class="step"></span>
+                                            <span class="step"></span>
+                                            <span class="step"></span>
+                                            <span class="step"></span>
+                                        </div>
                                         <!-- ШАГ 1 -->
                                         <div class="tab">
                                             <div class="applicationForm--content--item">
@@ -863,16 +868,9 @@
                                                     <a href="javascript:void(0);" class="btn" id="myStepFormlink">Далее</a>
                                                 </div>
                                             </div> -->
-
-                                        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-                                        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-
-
-                                        <div style="text-align:center;margin-top:40px;">
-                                            <span class="step"></span>
-                                            <span class="step"></span>
-                                            <span class="step"></span>
-                                            <span class="step"></span>
+                                        <div class="formBtns">
+                                            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                                            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
                                         </div>
 
                                     </form>
@@ -1036,6 +1034,7 @@
         <script type="text/javascript" src="js/theme.js"></script>
         <script type="text/javascript" src="js/map-script.js"></script>
 
+        <script type="text/javascript" src="js/formScript.js"></script>
     </div>
     <!-- /.main-page-wrapper -->
 </body>

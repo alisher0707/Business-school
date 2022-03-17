@@ -449,7 +449,6 @@ textarea {
 #news .single-news-item:hover .post p a,
 #news .single-news-item .post h6:hover a,
 #contact-section .contact-address-content .left-side ul li:hover .icon,
-#contact-section .send-message form button:hover,
 .inner-page-banner .opacity ul li:last-child,
 .blog-details-page aside .sidebar-news-list ul li a i,
 .monthly-header-title,
@@ -490,9 +489,7 @@ textarea {
 #pricing-section .single-price-table a,
 #our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
-#contact-section .contact-address-content .left-side ul li .icon,
-#contact-section .send-message form button,
-.sidebar-tags ul li a:hover,
+#contact-section .contact-address-content .left-side ul li .icon .sidebar-tags ul li a:hover,
 .blog-details-post-wrapper .post-comment form button,
 .blog-details-post-wrapper .post-comment textarea:focus,
 .blog-details-post-wrapper .post-comment input:focus {
@@ -726,13 +723,15 @@ textarea {
 
  ***/
 
-#benefits {
+#benefits,
+#our-client {
     background: #232a34;
     padding-bottom: 80px;
 }
 
 #benefits .theme-title h2,
-#benefits .theme-title p {
+#benefits .theme-title p,
+#our-client .theme-title h2 {
     color: #fff;
 }
 
@@ -1297,7 +1296,7 @@ textarea {
 #our-client .client-slider p {
     font-size: 18px;
     line-height: 28px;
-    color: #343434;
+    color: #FFF;
     width: 80%;
     margin: 33px auto 24px auto;
 }
@@ -1573,28 +1572,6 @@ textarea {
 #contact-section .send-message form textarea:focus {
     border-color: #424040;
 }
-
-#contact-section .send-message form button {
-    width: 140px;
-    line-height: 40px;
-    text-align: center;
-    color: #fff;
-    text-transform: uppercase;
-    border-width: 1px;
-}
-
-#contact-section .send-message form button:hover {
-    background: #fff;
-}
-
-
-/*** 
-
-====================================================================
-  Conatct Form Activation
-====================================================================
-
- ***/
 
 .alert-wrapper {
     display: none;
@@ -2128,4 +2105,8 @@ footer p {
 
 .blog-details-post-wrapper .post-comment form button:hover {
     background: #fff;
+}
+
+.map-area iframe {
+    border: 2px solid #EF7F1A !important;
 }
