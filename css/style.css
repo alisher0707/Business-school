@@ -379,14 +379,14 @@ textarea {
 }
 
 .tran4s,
-#service-section .single-service-content p,
+#benefits .single-service-content p,
 #project-section .project-gallery .single-img .opacity ul,
 #project-section .project-gallery .single-img .opacity h6 a {
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .float-left {
@@ -441,13 +441,13 @@ textarea {
 .p-color,
 .theme-main-menu .navbar-nav>li.active>a,
 .theme-main-menu .navbar-nav>li>a:hover,
-#about-us .single-about-content:hover h5 a,
-#service-section .single-service-content:hover .icon-heading .icon,
-#service-section .single-service-content:hover .icon-heading h6 a,
+#courses .single-about-content:hover h5 a,
+#benefits .single-service-content:hover .icon-heading .icon,
+#benefits .single-service-content:hover .icon-heading h6 a,
 #pricing-section .single-price-table a:hover,
-#blog-section .single-news-item .img a,
-#blog-section .single-news-item:hover .post p a,
-#blog-section .single-news-item .post h6:hover a,
+#news .single-news-item .img a,
+#news .single-news-item:hover .post p a,
+#news .single-news-item .post h6:hover a,
 #contact-section .contact-address-content .left-side ul li:hover .icon,
 #contact-section .send-message form button:hover,
 .inner-page-banner .opacity ul li:last-child,
@@ -471,7 +471,7 @@ textarea {
 
 .p-color-bg,
 .theme-title h2:before,
-#about-us .single-about-content:hover .icon,
+#courses .single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,
 #our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
@@ -480,9 +480,8 @@ textarea {
 }
 
 .banner .project-button,
-#about-us .icon,
-#about-us .single-about-content a.more,
-#service-section .single-service-content:hover,
+#courses .icon,
+#courses .single-about-content a.more,
 #project-section .project-menu ul li.active,
 #project-section .project-menu ul li:hover,
 .page-middle-banner .opacity a,
@@ -684,12 +683,12 @@ textarea {
 
  ***/
 
-#about-us .single-about-content {
+#courses .single-about-content {
     text-align: center;
     margin: 25px 0;
 }
 
-#about-us .icon {
+#courses .icon {
     width: 130px;
     height: 130px;
     margin: 0 auto;
@@ -699,12 +698,12 @@ textarea {
     color: #292929;
 }
 
-#about-us h5 a {
+#courses h5 a {
     color: #292929;
     margin: 35px 0 20px 0;
 }
 
-#about-us .single-about-content a.more {
+#courses .single-about-content a.more {
     width: 130px;
     line-height: 45px;
     color: #292929;
@@ -712,8 +711,8 @@ textarea {
     margin-top: 22px;
 }
 
-#about-us .single-about-content a.more:hover,
-#about-us .single-about-content:hover .icon {
+#courses .single-about-content a.more:hover,
+#courses .single-about-content:hover .icon {
     color: #fff;
 }
 
@@ -726,33 +725,32 @@ textarea {
 
  ***/
 
-#service-section {
+#benefits {
     background: #232a34;
     padding-bottom: 80px;
 }
 
-#service-section .theme-title h2,
-#service-section .theme-title p {
+#benefits .theme-title h2,
+#benefits .theme-title p {
     color: #fff;
 }
 
-#service-section .row {
+#benefits .row {
     margin: 50px 0 0 0;
 }
 
-#service-section .row [class*="col-"] {
+#benefits .row [class*="col-"] {
     padding-top: 25px;
 }
 
-#service-section .single-service-content {
-    border: 1px solid #808489;
+#benefits .single-service-content {
     text-align: center;
     margin-bottom: 20px;
     padding: 118px 23px 65px 23px;
     overflow: hidden;
 }
 
-#service-section .single-service-content p {
+#benefits .single-service-content p {
     -webkit-transition-delay: 0.3s;
     /* Safari */
     transition-delay: 0.3s;
@@ -764,7 +762,7 @@ textarea {
     transform: translate3D(0, 200px, 0);
 }
 
-#service-section .single-service-content .icon-heading {
+#benefits .single-service-content .icon-heading {
     position: absolute;
     width: 100%;
     left: 0;
@@ -772,7 +770,7 @@ textarea {
     top: 120px;
 }
 
-#service-section .single-service-content .icon-heading .icon {
+#benefits .single-service-content .icon-heading .icon {
     font-size: 48px;
     color: #808489;
     width: 80px;
@@ -780,17 +778,17 @@ textarea {
     background: #232a34;
 }
 
-#service-section .single-service-content .icon-heading a {
+#benefits .single-service-content .icon-heading a {
     color: #808489;
     text-transform: capitalize;
     margin-top: 33px;
 }
 
-#service-section .single-service-content:hover .icon-heading {
+#benefits .single-service-content:hover .icon-heading {
     top: -10px;
 }
 
-#service-section .single-service-content:hover p {
+#benefits .single-service-content:hover p {
     opacity: 1;
     color: #fff;
     -webkit-transform: translate3D(0, 0, 0);
@@ -924,7 +922,7 @@ textarea {
 #project-section .project-gallery .single-img img,
 #team-section .team-member-wrapper .single-team-member .img img,
 #skill-section .img img,
-#blog-section .single-news-item .img img {
+#news .single-news-item .img img {
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
     -ms-transition: all .6s ease-in-out;
@@ -935,7 +933,7 @@ textarea {
 #project-section .project-gallery .single-img:hover img,
 #team-section .team-member-wrapper .single-team-member:hover .img img,
 #skill-section:hover .img img,
-#blog-section .single-news-item:hover .img img {
+#news .single-news-item:hover .img img {
     -webkit-transform: scale3d(1.15, 1.15, 1);
     -moz-transform: scale3d(1.15, 1.15, 1);
     -ms-transform: scale3d(1.15, 1.15, 1);
@@ -1387,18 +1385,18 @@ textarea {
 
  ***/
 
-#blog-section .single-news-item .img {
+#news .single-news-item .img {
     overflow: hidden;
     position: relative;
 }
 
-#blog-section .single-news-item,
-.single-phot,
+#news .single-news-item,
+.single-photo,
 .single-text {
     margin-top: 55px;
 }
 
-#blog-section .single-news-item .img a {
+#news .single-news-item .img a {
     position: absolute;
     top: 0;
     left: 0;
@@ -1417,14 +1415,14 @@ textarea {
     transform: scale(0.2);
 }
 
-#blog-section .single-news-item .img a i {
+#news .single-news-item .img a i {
     position: relative;
     top: 50%;
     display: block;
     margin-top: -14px;
 }
 
-#blog-section .single-news-item:hover .img a {
+#news .single-news-item:hover .img a {
     opacity: 1;
     visibility: visible;
     border-radius: 0;
@@ -1435,7 +1433,7 @@ textarea {
     transform: scale(1);
 }
 
-#blog-section .single-news-item .post h6 a {
+#news .single-news-item .post h6 a {
     display: block;
     line-height: 26px;
     text-transform: none;
@@ -1443,13 +1441,13 @@ textarea {
     margin: 40px 0 15px 0;
 }
 
-#blog-section .single-news-item .post>a {
+#news .single-news-item .post>a {
     color: #292929;
     font-size: 15px;
     margin-bottom: 18px;
 }
 
-#blog-section .single-news-item .post p a {
+#news .single-news-item .post p a {
     color: #292929;
 }
 
