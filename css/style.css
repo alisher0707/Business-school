@@ -482,6 +482,7 @@ textarea {
 .banner .project-button,
 #courses .icon,
 #courses .single-about-content a.more,
+#benefits .single-service-content:hover,
 #project-section .project-menu ul li.active,
 #project-section .project-menu ul li:hover,
 .page-middle-banner .opacity a,
@@ -744,6 +745,7 @@ textarea {
 }
 
 #benefits .single-service-content {
+    border: 1px solid #808489;
     text-align: center;
     margin-bottom: 20px;
     padding: 118px 23px 65px 23px;
