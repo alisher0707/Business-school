@@ -86,8 +86,12 @@ a.btn {
     transition: 0.6s all;
 }
 
+a.btn:hover {
+    color: #FFFFFF;
+}
+
 input.form-checkbox {
-    -webkit-appearance: none;
+    /* -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     display: inline-block;
@@ -103,7 +107,8 @@ input.form-checkbox {
     outline: none;
     border: 1px solid #1D3448;
     border-radius: 2px;
-    box-sizing: unset !important;
+    box-sizing: unset !important; */
+    margin-right: 13px;
 }
 
 input#birthday {
