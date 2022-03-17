@@ -1392,7 +1392,9 @@ textarea {
     position: relative;
 }
 
-#blog-section .single-news-item {
+#blog-section .single-news-item,
+.single-phot,
+.single-text {
     margin-top: 55px;
 }
 
