@@ -807,6 +807,11 @@ textarea {
 
  ***/
 
+.single-text-item-title h6 {
+    padding: 15px;
+    background-color: #EF7F1A;
+}
+
 #project-section .project-menu ul {
     text-align: center;
     margin-top: 34px;
@@ -1761,7 +1766,6 @@ footer ul li a:hover {
 footer p {
     color: #fff;
     font-size: 15px;
-    margin-top: 50px;
 }
 
 
