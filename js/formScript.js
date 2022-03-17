@@ -61,6 +61,7 @@ function validateForm() {
     return valid; // return the valid status
 }
 
+
 function fixStepIndicator(n) {
     // This function removes the "active" class of all steps...
     var i, x = document.getElementsByClassName("step");

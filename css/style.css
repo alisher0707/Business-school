@@ -726,7 +726,6 @@ textarea {
 #benefits,
 #our-client {
     background: #232a34;
-    padding-bottom: 80px;
 }
 
 #benefits .theme-title h2,
@@ -816,7 +815,7 @@ textarea {
 
 .single-text-item-title2 h6 {
     padding: 15px;
-    background-color: #393185;
+    background-color: #232a34;
     color: #fff;
 }
 
@@ -974,7 +973,7 @@ textarea {
  ***/
 
 .page-middle-banner {
-    background: url(../images/home/1.jpg) no-repeat center;
+    background: url(../images/home/slide-2.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     margin-top: 70px;
@@ -1304,6 +1303,7 @@ textarea {
 #our-client .client-slider h6 {
     text-transform: capitalize;
     margin-bottom: 45px;
+    color: #FFF;
 }
 
 #our-client .owl-theme .owl-dots .owl-dot span {
