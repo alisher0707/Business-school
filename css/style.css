@@ -811,6 +811,13 @@ textarea {
 .single-text-item-title h6 {
     padding: 15px;
     background-color: #EF7F1A;
+    color: #fff;
+}
+
+.single-text-item-title2 h6 {
+    padding: 15px;
+    background-color: #393185;
+    color: #fff;
 }
 
 #project-section .project-menu ul {
