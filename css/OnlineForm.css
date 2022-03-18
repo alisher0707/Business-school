@@ -44,6 +44,7 @@ label.placeholderRequired {
     font-size: 18px;
     font-weight: 400;
     height: 21px;
+    color: #292929;
 }
 
 input.pageRequired {
@@ -191,30 +192,24 @@ input.invalid {
 /* Make circles that indicate the steps of the form: */
 
 .step {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbbbbb;
-    border: none;
-    border-radius: 50%;
-    display: inline-block;
-    opacity: 0.5;
+    display: none;
+    font-weight: 500;
+    font-size: 22px;
+    color: #292929;
 }
 
 
 /* Mark the active step: */
 
 .step.active {
-    background-color: #EF7F1A;
-    opacity: 1;
+    display: block;
 }
 
 
 /* Mark the steps that are finished and valid: */
 
 .step.finish {
-    background-color: #EF7F1A;
-    opacity: 1;
+    display: none;
 }
 
 .formBtns {

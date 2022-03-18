@@ -2110,3 +2110,16 @@ footer p {
 .map-area iframe {
     border: 2px solid #EF7F1A !important;
 }
+
+.all-news a {
+    font-size: 16px;
+    color: #292929;
+    opacity: 0.9;
+    padding: 15px;
+    display: flex;
+}
+
+.all-news a:hover {
+    color: #292929;
+    opacity: 1;
+}
