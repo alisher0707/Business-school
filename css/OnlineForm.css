@@ -50,7 +50,8 @@ input#address.pageRequired {
     width: 500px;
 }
 
-.agreebox {
+
+/* .agreebox {
     display: flex;
     padding: 0;
     margin-top: 50px;
@@ -63,7 +64,7 @@ input#address.pageRequired {
     color: #444444;
     text-align: justify;
     width: 97%;
-}
+} */
 
 .applicationForm--content--item.btns {
     text-align: center;
