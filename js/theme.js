@@ -1,6 +1,5 @@
 "use strict";
 
-
 // Prealoder
 function prealoader() {
     if ($('#preloader_1').length) {
@@ -251,19 +250,6 @@ function contactFormValidation() {
     }
 }
 
-// Close suddess Alret
-function closeSuccessAlert() {
-    var closeButton = $(".closeAlert");
-    if (closeButton.length) {
-        closeButton.on('click', function() {
-            $(".alert-wrapper").fadeOut();
-        });
-        closeButton.on('click', function() {
-            $(".alert-wrapper").fadeOut();
-        })
-    }
-}
-
 
 // Sticky header
 function stickyHeader() {
@@ -275,14 +261,6 @@ function stickyHeader() {
         else sticky.removeClass('fixed');
 
     };
-}
-
-// Calendar
-function cladendar() {
-    var calender = $('#blog-calendar');
-    if (calender.length) {
-        calender.monthly();
-    }
 }
 
 // Tooggle Home page menu click Function 

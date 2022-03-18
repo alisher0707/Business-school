@@ -11,76 +11,8 @@
 */
 
 
-/* ------------------------------------------ */
-
-
-/*             TABLE OF CONTENTS
-/* ------------------------------------------ */
-
-
-/*   01 - Loading Transition  */
-
-
-/*   02 - Click To Top  */
-
-
-/*   03 - Global Settings */
-
-
-/*   04 - Theme Header */
-
-
-/*   05 - Theme Main Banner */
-
-
-/*   06 - About section */
-
-
-/*   07 - Service section  */
-
-
-/*   08 - Project section  */
-
-
-/*   09 - Page Middle Banner  */
-
-
-/*   10 - Team Section  */
-
-
-/*   11 - Skill Section  */
-
-
-/*   12 - Our Client  */
-
-
-/*   13 - Pricing Section  */
-
-
-/*   14 - Blog Section  */
-
-
-/*   15 - Partner Section  */
-
-
-/*   16 - Contact Section  */
-
-
-/*   17 - Footer */
-
-
-/*   18 - Inner Page Banner  */
-
-
-/*   19 - Blog Aside bar */
-
-
-/*   20 - Blog Details Post */
-
-
-/**
-* Importing necessary  Styles.
-**/
+/* ---------------------------
+Importing necessary  Styles. */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
@@ -107,25 +39,17 @@
 
 @import url('../vendor/WOW-master/css/libs/animate.css');
 
-/*---- Progress bar css----*/
-
-@import url('../vendor/skills-master/source/habilidades.css');
-
 /*-------- hover css ------*/
 
 @import url('../vendor/hover.css');
 
-/*----calendar css--------*/
-
-@import url('../vendor/monthly-master/css/monthly.css');
-
-/*** 
+/*
 
 ====================================================================
   Loading Transition
 ====================================================================
 
- ***/
+ */
 
 #loader-wrapper {
     position: fixed;
@@ -151,7 +75,7 @@
     bottom: 0px;
     width: 6px;
     height: 5px;
-    background: #e04f5d;
+    background: #EF7F1A;
     position: absolute;
     animation: preloader_1 1.5s infinite ease-in-out;
 }
@@ -180,33 +104,33 @@
     0% {
         height: 5px;
         transform: translateY(0px);
-        background: #e62d3f;
+        background: #EF7F1A;
     }
     25% {
         height: 30px;
         transform: translateY(15px);
-        background: #e62d3f;
+        background: #EF7F1A;
     }
     50% {
         height: 5px;
         transform: translateY(0px);
-        background: #ee2438;
+        background: #EF7F1A;
     }
     100% {
         height: 5px;
         transform: translateY(0px);
-        background: #ee2438;
+        background: #EF7F1A;
     }
 }
 
 
-/*** 
+/*
 
 ====================================================================
   Click To Top
 ====================================================================
 
- ***/
+ */
 
 .scroll-top {
     width: 45px;
@@ -247,8 +171,6 @@
     font-family: 'font-awesome';
     src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
     src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
-    url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
     url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg');
     /* Legacy iOS */
 }
@@ -1206,82 +1128,12 @@ textarea {
 }
 
 
-/*** 
-
-====================================================================
-  Skill Section
-====================================================================
-
- ***/
-
-#skill-section {
-    background: #232a34;
-    margin-top: 70px;
-}
-
-#skill-section .img {
-    overflow: hidden;
-}
-
-#skill-section:hover .img img {
-    opacity: 0.6;
-}
-
-.habilidades_contenedor {
-    width: 100%;
-    margin: 125px 0 0 0;
-}
-
-#skill-section .codeconSkillbar .codeconSkillArea {
-    font-weight: 700;
-    font-size: 15px;
-    color: #fff;
-    margin-bottom: 15px;
-    float: none;
-    margin: 0;
-}
-
-#skill-section .codeconSkillbar {
-    box-shadow: none;
-    height: 30px;
-    width: 100%;
-    background: #fff;
-    border-radius: 0;
-    overflow: visible;
-    position: relative;
-    margin: 0 0 38px 0;
-}
-
-#skill-section .codeconSkillbar .skill-text {
-    position: absolute;
-    top: -29px;
-    left: 0;
-}
-
-#skill-section .codeconSkillbar .skillBar {
-    box-shadow: none;
-    height: 100%;
-}
-
-#skill-section .codeconSkillbar .PercentText {
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-    position: absolute;
-    top: -39px;
-    left: 98%;
-    padding: 0;
-    float: none;
-}
-
-
-/*** 
-
+/*
 ====================================================================
   Our Client
 ====================================================================
 
- ***/
+ */
 
 #our-client .client-slider {
     text-align: center;
@@ -2122,4 +1974,8 @@ footer p {
 .all-news a:hover {
     color: #292929;
     opacity: 1;
+}
+
+#SQB-logo {
+    padding-right: 15px;
 }
