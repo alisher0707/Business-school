@@ -1,15 +1,5 @@
 /* Responsive CSS Document */
 
-
-/* 
-    Created on : 1/15/2017. 
-    Theme Name : BizPro.
-    Description: BizPro- Responsive html5 template.
-    Version    : 1.1.
-    Author     : @SRThemes.
-   
-*/
-
 @media (min-width: 992px) {
     .container {
         padding-left: 0 !important;
@@ -41,12 +31,6 @@
 
 @media (max-width: 991px) {
     .theme-title p,
-    #skill-section .img img {
-        width: 100%;
-    }
-    #skill-section {
-        padding-bottom: 30px;
-    }
     .blog-details-page aside {
         margin-top: 100px;
     }
@@ -108,6 +92,15 @@
     }
     .inner-page-banner .opacity {
         padding-top: 210px;
+    }
+    img#SQB-logo {
+        display: none !important;
+    }
+    #partner-section {
+        margin-top: 20px;
+    }
+    .applicationForm {
+        padding: 40px;
     }
 }
 
@@ -179,7 +172,6 @@
     #team-section .team-member-wrapper .float-left,
     #project-section .project-gallery .grid-item,
     #benefits .row [class*="col-"],
-    #skill-section [class*="col-"],
     #pricing-section [class*="col-"],
     #contact-section .send-message,
     #contact-section .contact-address-content [class*="col-"],
@@ -215,6 +207,28 @@
     }
     .blog-details-post-wrapper .post-share-area .share-icon li:first-child {
         margin-top: 30px;
+    }
+    img#SQB-logo {
+        display: none !important;
+    }
+    .single-text-item-title h6,
+    .single-text-item-title2 h6 {
+        padding: 0;
+    }
+    .single-photo-item {
+        margin-bottom: 15px;
+    }
+    .single-photo {
+        margin: 0;
+    }
+    #partner-section {
+        margin: 0;
+    }
+    #contact-section .contact-address-content h2 {
+        margin-top: 0;
+    }
+    .applicationForm {
+        padding: 15px !important;
     }
 }
 
@@ -256,5 +270,27 @@
     .recent-single-post .post {
         width: 100%;
         padding: 12px 0 0 0;
+    }
+    img#SQB-logo {
+        display: none !important;
+    }
+    .single-text-item-title h6,
+    .single-text-item-title2 h6 {
+        padding: 0;
+    }
+    .single-photo-item {
+        margin-bottom: 15px;
+    }
+    .single-photo {
+        margin: 0;
+    }
+    #partner-section {
+        margin: 0;
+    }
+    #contact-section .contact-address-content h2 {
+        margin-top: 0;
+    }
+    .applicationForm {
+        padding: 15px !important;
     }
 }
